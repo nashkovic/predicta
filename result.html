@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Team Predictor</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+	<div class="container">
+		<h1>Team Predictor</h1>
+		<p>The likely winner between {{ team1 }} and {{ team2 }} is <strong>{{ result }}</strong>.</p>
+		<p><a href="/">Predict another match</a></p>
+	</div>
+</body>
+</html>
