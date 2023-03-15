@@ -1,0 +1,17 @@
+To test the above web application, you can follow these steps:
+
+Ensure that you have installed all the necessary libraries and frameworks used in the code, such as Flask, pandas, and requests.
+
+Start the Flask application by running the command python app.py in your terminal.
+
+Open a web browser and go to the URL specified by the Flask app (usually http://localhost:5000).
+
+Enter the names of the teams you want to compare in the input fields provided on the webpage.
+
+Click the "Predict" button to submit the form.
+
+Wait for the Flask app to fetch the necessary data and perform the analysis. The result should be displayed on the same page below the input form.
+
+Try entering different team names and comparing the results to see how accurate the predictor is.
+
+If you encounter any errors or issues, check the console or log files for error messages that may help you troubleshoot the problem.
