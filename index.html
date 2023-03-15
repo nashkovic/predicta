@@ -2,15 +2,24 @@
 <html>
 <head>
 	<title>Team Predictor</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1>Team Predictor</h1>
-	<form action="predictor.py" method="post">
-		<label for="team1">Enter Team 1 Name:</label><br>
-		<input type="text" id="team1" name="team1"><br>
-		<label for="team2">Enter Team 2 Name:</label><br>
-		<input type="text" id="team2" name="team2"><br><br>
-		<input type="submit" value="Predict">
-	</form>
+	<div class="container">
+		<h1>Team Predictor</h1>
+		<form action="predictor.py" method="post">
+			<div class="input-container">
+				<label for="team1">Enter Team 1 Name:</label><br>
+				<input type="text" id="team1" name="team1" required>
+			</div>
+			<div class="input-container">
+				<label for="team2">Enter Team 2 Name:</label><br>
+				<input type="text" id="team2" name="team2" required>
+			</div>
+			<div class="button-container">
+				<input type="submit" value="Predict">
+			</div>
+		</form>
+	</div>
 </body>
 </html>
